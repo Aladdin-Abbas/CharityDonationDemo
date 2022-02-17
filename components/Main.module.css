@@ -1,0 +1,35 @@
+.main {
+  height: 100vh;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.btn-container {
+  position: absolute;
+  top: 40vh;
+  left: 50vw;
+  text-align: center;
+  margin-left: -103px;
+}
+
+.btn-container p {
+  font-size: 1.6rem;
+  font-weight: 900;
+  color: #8c9eff;
+}
+
+.btn-container a {
+  padding: 12px 22px;
+  border-radius: 4px 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: black;
+  transition: 0.6s ease-in-out;
+  background-color: #cfd8dc;
+  box-shadow: -9px 8px 8px -6px rgba(0, 0, 0, 0.74);
+}
+
+.btn-container a:hover {
+  background-color: black;
+  color: #cfd8dc;
+}
